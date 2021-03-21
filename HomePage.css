@@ -1,0 +1,78 @@
+
+body{
+	
+	background-color:yellow;
+	text-align:center;
+	
+   }
+h1{
+	background-color: grey;   
+	text-align:center;
+	
+	padding: 5px;
+	   
+   }
+.whole{
+	height: 1000px;
+}
+   
+footer{
+    width: 100%;
+	position:absolute;
+	top:100%;
+    background-color: rgb(13, 163, 190);
+    
+    text-align: center;
+	
+
+}
+
+footer a {
+    text-decoration: none;
+    color: red;
+}
+   .open-button {
+	 background-color: rgb(85, 85, 85);
+	 color: white;
+	 padding: 16px 20px;
+	 border: none;
+	 cursor: pointer;
+	 opacity: 0.8;
+	 position: absolute;
+	 margin-left: 50%;
+	 
+	 display: block;
+	 
+   }
+   table,th,td{
+	   padding:7px;
+   }
+   table.customer{
+	   position: relative;
+	   margin-top: 6%;
+	   margin-left: 15%;
+	   background-color: black;
+	   color: gold;
+	   overflow:scroll
+   }
+   
+   /* The popup form - hidden by default */
+   .form-popup {
+	 display: none;
+	 position: absolute;
+	 top:32%;
+	 left: 48%;
+	 border: 3px solid #f1f1f1;
+	 width:400px;
+	 background-color: black;
+	 color: gold;
+	 
+   }
+   
+   /* Add styles to the form container */
+   .form-container {
+	 max-width: 500px;
+	 padding: 10px;
+	 background-color:black;
+   }
+   
